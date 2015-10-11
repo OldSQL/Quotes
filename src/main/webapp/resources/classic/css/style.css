@@ -1,0 +1,272 @@
+body {
+	background: #fff;
+	color: #000;
+        font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	color: #000;
+	background: inherit;
+}
+a:hover
+{
+	color: #999;
+	border-bottom: 1px solid #999;
+	background: inherit;
+}
+div.top {
+	margin: 0;
+	padding: 0;
+	height: 80px;
+	display: block;
+}
+div.top img {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+div.top h1 {
+	margin: 0;
+	padding: 0;
+}
+div.menu {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+div.menu div.ul {
+/*	border: solid 1px #000; */
+	padding: 0 8px 0 0; /**/
+}
+div.menu div.cap {
+	color: #fff;
+	background: #999;
+	text-align: center;
+	font-size: 80%;
+	font-weight: bold;
+	padding: 2px 0px;
+	border: none;
+}
+div.menu ul {
+	margin: 2px;
+	padding: 0;
+}
+div.menu li {
+	list-style-type: none;
+	line-height: 1.6em;
+}
+div.bottom {
+	float: inherit;
+	font-size: small;
+	color: #acacac;
+	background: inherit;
+}
+.delheader {
+	background-color: #999999;
+	color: white;
+    font-weight: bold;
+	//font-family: sans-serif;
+	text-align: center;
+	font-size: 80%;
+}
+
+.deltable {
+	border: 1px dotted #ccc;
+}
+
+
+/*******************
+  QUOTE 
+*******************/
+
+div.q-msg {
+	border-top: solid 1px #000;
+	padding: 8px 1px;
+}
+
+div.q-head {
+	font-size: 80%;
+	font-weight: bold;
+	padding: 4px 0;
+	//font-family: sans-serif; 
+}
+
+div.q-control {
+	color: #000;
+	background: #f5f5f5;
+	border-top: solid 1px #000;
+	border-right: none;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	font-size: 80%;
+	////font-family: sans-serif;
+	padding: 2px;
+	float: right;
+}
+
+div.q-control a {
+	border-bottom: none;
+}
+
+div.q-attr {
+	float: right;
+	font-style: italic;
+}
+
+div.q-text {
+	display: block;
+}
+
+div.q-sign {
+	font-style: italic;
+	padding: 4px 0;
+	display: block;
+}
+
+div.q-info {
+	font-style: italic;
+	padding: 4px 0;
+}
+
+div.q-re {
+	display: block; 
+	font-weight: bold;
+}
+
+div.q-reply {
+	display: block; 
+	font-style: italic;
+}
+
+div.q-links {
+	float: right;
+}
+
+div.q-button {
+	float: right;
+	//font-family: sans-serif;
+	font-size: 80%;
+	border-top: solid 1px #000;
+	border-right: none;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	padding: 2px;
+	background: #f5f5f5;
+	color: #000;
+}
+
+div.q-button a {
+	border-bottom: none;
+}
+/*
+div.q-locked {
+	background: yellow;
+	float: right;
+	padding: 2px;
+	border: solid 1px #000;
+	border-right: none;
+}
+/**/
+div.quotes-tail {
+	border-top: solid 1px #000;
+	padding: 4px 1px;
+}
+
+/*******************
+  GOSTEVUHA
+*******************/
+
+div.gb-msg {
+	border-top: solid 1px #000;
+	padding: 4px 1px;
+}
+
+div.gb-control {
+	background: #f5f5f5;
+	color: #000;
+	border-top: solid 1px #000;
+	border-right: none;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	font-size: 80%;
+	//font-family: sans-serif;
+	padding: 2px 0;
+	float: right;
+}
+
+div.gb-control a {
+	border-bottom: none;
+}
+
+div.gb-attr {
+	font-style: italic;
+	font-size: 80%;
+	display: block;
+	float: right;
+}
+
+div.gb-sign {
+	font-style: italic;
+	padding: 4px 0;
+	display: block;
+}
+
+div.gb-user-agent {
+	//font-family: sans-serif;
+	font-size: 80%;
+	color: #999;
+	background: #fff;
+}
+
+div.gb-reply {
+	display: block; 
+	font-style: italic;
+}
+
+/*  my addons */
+
+thead {
+	background: #999;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+}
+/* new addons select on unc-2bio.php */
+select {
+	border: 1px solid #999;
+	padding: 1px;
+	margin: 0;
+	font-family: Tahoma, Sans-serif;
+	background: #ddd;
+	color: #000;
+}
+input, textarea {
+	border: 1px solid #999;	
+	font-family: Tahoma, Sans-serif;
+	padding: 1px 2px;
+	background: #ddd;
+	color: #000;
+}
+input:hover, textarea:hover {
+	border: 1px solid #333;
+	background: #ddd;
+	color: #000;
+}
+input#reason {
+	margin: 2px 0;
+	padding: 1px 5px;
+	//font-family: sans-serif;
+}
+/* display in span#msg quote 4 deleting */
+span#msg {
+	display: block;
+	background: #999;
+	border: 1px solid #333;
+	padding: 1px 2px;
+	margin: 1px 0px;
+	width: 410px;
+	background: #eee;
+}
